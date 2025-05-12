@@ -15,25 +15,55 @@ there are ten questions which were desired to be answered:
   - Regular: At least 12 months of spending but total spend is 5000 Euros or less
   - New: Less than 12 months of spending
 
+
+** A caveat for the data is that data for 2010 and 2014 were incomplete
+
 What are monthly total sales?
 Here are the results of running the queries. 2013 had the highest sales
-| Year | Sales | Total Customers | Total Quantity | Total Orders |
-|------|-------|----------------|----------------|--------------|
-| 2013 | 16,344,878 | 17,427 | 52,807 | 21,287 |
-| 2011 | 7,075,088 | 2,216 | 2,216 | 2,216 |
-| 2012 | 5,842,231 | 3,255 | 3,397 | 3,269 |
-| 2014 | 45,642 | 834 | 1,970 | 871 |
-| 2010 | 43,419 | 14 | 14 | 14 |
+| Year | Sales |
+|------|-------|
+| 2013 | 16,344,878 |
+| 2011 | 7,075,088 |
+| 2012 | 5,842,231 |
+| 2014 | 45,642 |
+| 2010 | 43,419 |
 
 
 Total customers:
-Interestingly, as opposed to sales, this dislayed an increase across years and spiked in 2013 even though though sales in 2012 was less than 2011.
+This displayed an interesting trend that even though total sales in 2011 were greater than 2012, 2011 had less customers
+
+| Year | Total Customers |
+|------|-----------------|
+| 2013 | 17,427 |
+| 2012 | 3,255 |
+| 2011 | 2,216 |
+| 2014 | 834 |
+| 2010 | 14 |
 
 Total orders:
 This displayed a year on year increase and spiked in 2013
 
+| Year | Total Orders |
+|------|--------------|
+| 2013 | 21,287 |
+| 2012 | 3,269 |
+| 2011 | 2,216 |
+| 2014 | 871 |
+| 2010 | 14 |
+
 Total quantity:
-This displayed a year on year increase and spiked in 2013
+The results are as follows:
+
+| Year | Total Quantity |
+|------|----------------|
+| 2013 | 52,807 |
+| 2012 | 3,397 |
+| 2011 | 2,216 |
+| 2014 | 1,970 |
+| 2010 | 14 |
+
+The trend here is similar to other high level metrics i.e spiking in 2013
+
 
 CUMULATIVE ANALYSIS
 Rolling sum:
