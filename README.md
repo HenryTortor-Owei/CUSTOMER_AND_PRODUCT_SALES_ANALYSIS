@@ -1,20 +1,30 @@
 # CUSTOMER_AND_PRODUCT_SALES_ANALYSIS
-This is an analysis of customer and product sales data to uncover key insights.
+This is an analysis of customer and product sales data to uncover key insights. In total, 
+there are ten questions which were desired to be answered:
+1 What are monthly total sales
+2 What are monthly total orders
+3 What is the monthly total quantity
+4 What is the total number of monthly customers
+5 What is the monthly running total of sales
+6 What is the 3-month moving average of sales
+7 Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
+8 Analyse product categories to find which contributes the most to product sales
+9 Segment products into cost ranges and find out how many products fall into each segment
+10 Group customers into three segments based on their spending behaviour:
+  - VIP: At least 12 months of spending and total spend of more than 5000 Euros
+  - Regular: At least 12 months of spending but total spend is 5000 Euros or less
+  - New: Less than 12 months of spending
 
-TRENDS OVER TIME
-The main purpose of this analysis was to uncover the high level trends over the entire period that the data runs which is from 2010 to 2014
-The main goal of this analysis is, at a high level, look at the business numbers
-In order to determine whether its growing or declining as well as to ascertain seasonality of demand
-These trends include:
-Total sales: what were the total sales for all products
-Total customers: How many customers made purchases
-Total orders: The total number of orders placed
-Total Quantity: The total quantity of products purchased
+What are monthly total sales?
+Here are the results of running the queries. 2013 had the highest sales
+| Year | Sales | Total Customers | Total Quantity | Total Orders |
+|------|-------|----------------|----------------|--------------|
+| 2013 | 16,344,878 | 17,427 | 52,807 | 21,287 |
+| 2011 | 7,075,088 | 2,216 | 2,216 | 2,216 |
+| 2012 | 5,842,231 | 3,255 | 3,397 | 3,269 |
+| 2014 | 45,642 | 834 | 1,970 | 871 |
+| 2010 | 43,419 | 14 | 14 | 14 |
 
-Results
-Total sales:
-From this dataset it can be seen that between 2011 and 2013, the total sales fell slightly
-and then went back up in 2013. 2010 and 2014 have too little data to draw substantial conclusions.
 
 Total customers:
 Interestingly, as opposed to sales, this dislayed an increase across years and spiked in 2013 even though though sales in 2012 was less than 2011.
@@ -26,4 +36,18 @@ Total quantity:
 This displayed a year on year increase and spiked in 2013
 
 CUMULATIVE ANALYSIS
+Rolling sum:
+The rolling sum gives an idea of the change in sales every month and tells a similar story to the total sales.
+From january to december ever year is a fairly straight line meaning a fairly linear sales function.
+From january - december 2013 has the greatest slope meaning that the month to month change in sales was the greatest during that period.
+This tallies with 2013 having the largest sales numbers.
+
+Moving Average:
+Moving averages are good for identifying underlying trends when there are fluctuations.
+In this instance, it shows that the 3-month average in 2011 and 2012 were relatively flat
+This means that as the year went on the genral monthly trend averages to a  
+
+
+PERFORMANCE ANALYSIS
+
 
