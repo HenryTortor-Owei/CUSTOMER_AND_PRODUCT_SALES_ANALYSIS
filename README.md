@@ -1,22 +1,22 @@
 # CUSTOMER_AND_PRODUCT_SALES_ANALYSIS
 This is an analysis of customer and product sales data to uncover key insights. In total, 
 there are ten questions which were desired to be answered:
-1 What are monthly total sales
-2 What are monthly total orders
-3 What is the monthly total quantity
-4 What is the total number of monthly customers
-5 What is the monthly running total of sales
-6 What is the 3-month moving average of sales
-7 Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
-8 Analyse product categories to find which contributes the most to product sales
-9 Segment products into cost ranges and find out how many products fall into each segment
-10 Group customers into three segments based on their spending behaviour:
+1. What are monthly total sales
+2. What are monthly total orders
+3. What is the monthly total quantity
+4. What is the total number of monthly customers
+5. What is the monthly running total of sales
+6. What is the 3-month moving average of sales
+7. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
+8. Analyse product categories to find which contributes the most to product sales
+9. What is the contribution of each products to sales, group them into segments.
+10. Group customers into three segments based on their spending behaviour:
   - VIP: At least 12 months of spending and total spend of more than 5000 Euros
   - Regular: At least 12 months of spending but total spend is 5000 Euros or less
   - New: Less than 12 months of spending
 
 
-** A caveat for the data is that data for 2010 and 2014 were incomplete
+## A caveat for the data is that data for 2010 and 2014 were incomplete
 
 What are monthly total sales?
 Here are the results of running the queries. 2013 had the highest sales
@@ -67,17 +67,55 @@ The trend here is similar to other high level metrics i.e spiking in 2013
 
 CUMULATIVE ANALYSIS
 Rolling sum:
+![rolling_sum](https://github.com/user-attachments/assets/fca647c9-de86-4b7d-a0ed-d07e23e17b38)
+
 The rolling sum gives an idea of the change in sales every month and tells a similar story to the total sales.
 From january to december ever year is a fairly straight line meaning a fairly linear sales function.
 From january - december 2013 has the greatest slope meaning that the month to month change in sales was the greatest during that period.
 This tallies with 2013 having the largest sales numbers.
 
 Moving Average:
+![Moving_average](https://github.com/user-attachments/assets/2a680223-f780-406f-86f5-58ec19e2d697)
+
 Moving averages are good for identifying underlying trends when there are fluctuations.
 In this instance, it shows that the 3-month average in 2011 and 2012 were relatively flat
 This means that as the year went on the genral monthly trend averages to a  
 
 
-PERFORMANCE ANALYSIS
+7. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
+There are more products than can be shown here but here are the first 2 product results:
+| Year | Product Name | Yearly Sales | Average Sales | Previous Comparison | PY Status | Average Comparison | Average Status |
+|------|--------------|-------------|--------------|-------------------|-----------|-------------------|---------------|
+| 2012 | All-Purpose Bike Stand | 159 | 13,197.0000 | NULL | neutral | 0.0000 | neutral |
+| 2013 | All-Purpose Bike Stand | 37,683 | 13,197.0000 | 37,524 | better | 18,762.0000 | Above_average |
+| 2014 | All-Purpose Bike Stand | 1,749 | 13,197.0000 | -35,934 | worse | -11,448.0000 | Lower_than_average |
+| 2012 | AWC Logo Cap | 72 | 6,570.0000 | NULL | neutral | 0.0000 | neutral |
+| 2013 | AWC Logo Cap | 18,891 | 6,570.0000 | 18,819 | better | 9,409.5000 | Above_average |
+| 2014 | AWC Logo Cap | 747 | 6,570.0000 | -18,144 | worse | -5,823.0000 | Lower_than_average |
 
 
+8. Analyse product categories to find which contributes the most to product sales
+   There are three product categories here: Accesories, bikes and clothing. Here is a donut chart of the contribution to sales:
+
+   ![Product categories](https://github.com/user-attachments/assets/37860891-18dd-48c2-9369-cc2e4ace86d3)
+
+   This shows that overwhelmingly, bikes contribute the most with 96.46% contribution or 28,316,272 sales.
+   This is followed by accessories with 2.39% or 700,262 sales
+   Lastly is clothing with 1.16% or 339,716 sales
+
+9. What is the contribution of each products to sales, group them into segments.
+   Here are the results
+    ![Sales categories](https://github.com/user-attachments/assets/8aaef8b6-6583-4820-85e1-f5a3be6de88a)
+
+
+
+10. Group customers into three segments based on their spending behaviour:
+  - VIP: At least 12 months of spending and total spend of more than 5000 Euros
+  - Regular: At least 12 months of spending but total spend is 5000 Euros or less
+  - New: Less than 12 months of spending
+
+    ![Customer segments](https://github.com/user-attachments/assets/843f6596-959b-421a-9e4e-c4f6ea5c1fe1)
+    This shows that there are 14829 customers who have not made purchases for at least 12 months.
+    Of the rest, 2038 have spent 5000 Euros or less and 1617 have spent over 5000 Euros
+
+    
