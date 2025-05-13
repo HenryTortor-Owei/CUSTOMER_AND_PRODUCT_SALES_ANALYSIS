@@ -84,6 +84,7 @@ This means that as the year went on the genral monthly trend averages to a
 
 7. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
 There are more products than can be shown here but here are the first 2 product results:
+
 | Year | Product Name | Yearly Sales | Average Sales | Previous Comparison | PY Status | Average Comparison | Average Status |
 |------|--------------|-------------|--------------|-------------------|-----------|-------------------|---------------|
 | 2012 | All-Purpose Bike Stand | 159 | 13,197.0000 | NULL | neutral | 0.0000 | neutral |
@@ -115,6 +116,7 @@ There are more products than can be shown here but here are the first 2 product 
   - New: Less than 12 months of spending
 
     ![Customer segments](https://github.com/user-attachments/assets/843f6596-959b-421a-9e4e-c4f6ea5c1fe1)
+
     This shows that there are 14829 customers who have not made purchases for at least 12 months.
     Of the rest, 2038 have spent 5000 Euros or less and 1617 have spent over 5000 Euros
 
