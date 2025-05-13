@@ -1,7 +1,7 @@
 # CUSTOMER_AND_PRODUCT_SALES_ANALYSIS
 This is an analysis of customer and product sales data to uncover key insights. In total, 
 there are ten questions which were desired to be answered:
-1. 1. What are Yearly sales totals?
+1. What are Yearly sales totals?
 2. What is the number of yearly total customers
 3. What are yearly order totals:
 4. What are yearly quantity totals:
@@ -76,25 +76,25 @@ Rolling sum:
 
 ![rolling_sum](https://github.com/user-attachments/assets/fca647c9-de86-4b7d-a0ed-d07e23e17b38)
 
-The rolling sum gives an idea of the change in sales every month/year
-It gives an idea of growth/decline
-From january to december between 2011 and 2012 is a fairly straight line meaning a fairly linear sales function.
-This means on average for these two years, roughly similar amounts were sold each month
-From january - december 2013 is the most non-linear and has the greatest average slope
-Meaning that the month to month change in sales was the greatest during that period.
-This tallies with 2013 having the largest sales numbers.
-In general, this shows month-to-month growth in 2013
+- The rolling sum gives an idea of the change in sales every month/year
+- It gives an idea of growth/decline
+- From january to december between 2011 and 2012 is a fairly straight line meaning a fairly linear sales function.
+- This means on average for these two years, roughly similar amounts were sold each month
+- From january - december 2013 is the most non-linear and has the greatest average slope
+- Meaning that the month to month change in sales was the greatest during that period.
+- This tallies with 2013 having the largest sales numbers.
+- In general, this shows month-to-month growth in 2013
 
 Moving Average:
 
 ![Moving_average](https://github.com/user-attachments/assets/2a680223-f780-406f-86f5-58ec19e2d697)
 
-Moving averages are good for identifying underlying trends when there are fluctuations.
-In this instance, it shows that the 3-month average in 2011 and 2012 were relatively flat
-This means that as the year went on any spikes were cancelled out by declines and it averages to a relatively flat pattern
-Also, the average sales numbers of 2012 were less than 2011 numbers which tallies with the total
-For 2013, the moving average had a clear upward momentum which showed a steady, periodic sales gain
-Except between july and august which had a slight decline compared to other periods in the year.
+- Moving averages are good for identifying underlying trends when there are fluctuations.
+- In this instance, it shows that the 3-month average in 2011 and 2012 were relatively flat
+- This means that as the year went on any spikes were cancelled out by declines and it averages to a relatively flat pattern
+- Also, the average sales numbers of 2012 were less than 2011 numbers which tallies with the total
+- For 2013, the moving average had a clear upward momentum which showed a steady, periodic sales gain
+- Except between july and august which had a slight decline compared to other periods in the year.
 
 
 
@@ -116,9 +116,9 @@ There are more products than can be shown here but here are the first 2 product 
 
    ![Product categories](https://github.com/user-attachments/assets/37860891-18dd-48c2-9369-cc2e4ace86d3)
 
-   This shows that overwhelmingly, bikes contribute the most with 96.46% contribution or 28,316,272 sales.
-   This is followed by accessories with 2.39% or 700,262 sales
-   Lastly is clothing with 1.16% or 339,716 sales
+   - This shows that overwhelmingly, bikes contribute the most with 96.46% contribution or 28,316,272 sales.
+   - This is followed by accessories with 2.39% or 700,262 sales
+   - Lastly is clothing with 1.16% or 339,716 sales
 
 9. What is the contribution of each products to sales, group them into segments.
    Here are the results
@@ -133,7 +133,7 @@ There are more products than can be shown here but here are the first 2 product 
 
     ![Customer segments](https://github.com/user-attachments/assets/843f6596-959b-421a-9e4e-c4f6ea5c1fe1)
 
-    This shows that there are 14829 customers who have not made purchases for at least 12 months.
-    Of the rest, 2038 have spent 5000 Euros or less and 1617 have spent over 5000 Euros
+    - This shows that there are 14829 customers who have not made purchases for at least 12 months.
+    - Of the rest, 2038 have spent 5000 Euros or less and 1617 have spent over 5000 Euros
 
     
