@@ -1,10 +1,10 @@
 # CUSTOMER_AND_PRODUCT_SALES_ANALYSIS
 This is an analysis of customer and product sales data to uncover key insights. In total, 
 there are ten questions which were desired to be answered:
-1. What are monthly total sales
-2. What are monthly total orders
-3. What is the monthly total quantity
-4. What is the total number of monthly customers
+1. 1. What are Yearly sales totals?
+2. What is the number of yearly total customers
+3. What are yearly order totals:
+4. What are yearly quantity totals:
 5. Find the monthly running total of sales
 6. Find the 3-month moving average of sales
 7. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
@@ -18,7 +18,8 @@ there are ten questions which were desired to be answered:
 
 ## A caveat for the data is that data for 2010 and 2014 were incomplete
 
-What are monthly total sales?
+1. What are Yearly sales totals?
+
 Here are the total sales numbers. 2013 had the highest sales
 
 ![Yearly sales](https://github.com/user-attachments/assets/9f8ce615-fea0-4a29-94a3-00ae58046b13)
@@ -33,7 +34,8 @@ Here are the total sales numbers. 2013 had the highest sales
 | 2010 | 43,419 |
 
 
-Total customers:
+2. What is the number of yearly total customers
+
 This displayed an interesting trend that even though total sales in 2011 were greater than 2012, 2011 had less customers
 
 | Year | Total Customers |
@@ -44,7 +46,7 @@ This displayed an interesting trend that even though total sales in 2011 were gr
 | 2014 | 834 |
 | 2010 | 14 |
 
-Total orders:
+3. What are yearly order totals:
 This displayed a year on year increase and spiked in 2013
 
 | Year | Total Orders |
@@ -55,7 +57,7 @@ This displayed a year on year increase and spiked in 2013
 | 2014 | 871 |
 | 2010 | 14 |
 
-Total quantity:
+4. What are yearly quantity totals:
 The results are as follows:
 
 | Year | Total Quantity |
@@ -68,7 +70,7 @@ The results are as follows:
 
 The trend here is similar to other high level metrics i.e spiking in 2013
 
-6 & 7. Find the rolling sum and 3-month moving average of sales
+5 & 6. Find the rolling sum and 3-month moving average of sales
 
 Rolling sum:
 
