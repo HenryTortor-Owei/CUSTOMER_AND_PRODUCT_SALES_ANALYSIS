@@ -5,8 +5,8 @@ there are ten questions which were desired to be answered:
 2. What are monthly total orders
 3. What is the monthly total quantity
 4. What is the total number of monthly customers
-5. What is the monthly running total of sales
-6. What is the 3-month moving average of sales
+5. Find the monthly running total of sales
+6. Find the 3-month moving average of sales
 7. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
 8. Analyse product categories to find which contributes the most to product sales
 9. What is the contribution of each products to sales, group them into segments.
@@ -19,7 +19,11 @@ there are ten questions which were desired to be answered:
 ## A caveat for the data is that data for 2010 and 2014 were incomplete
 
 What are monthly total sales?
-Here are the results of running the queries. 2013 had the highest sales
+Here are the total sales numbers. 2013 had the highest sales
+
+![Yearly sales](https://github.com/user-attachments/assets/9f8ce615-fea0-4a29-94a3-00ae58046b13)
+
+
 | Year | Sales |
 |------|-------|
 | 2013 | 16,344,878 |
@@ -64,22 +68,32 @@ The results are as follows:
 
 The trend here is similar to other high level metrics i.e spiking in 2013
 
+6 & 7. Find the rolling sum and 3-month moving average of sales
 
-CUMULATIVE ANALYSIS
 Rolling sum:
+
 ![rolling_sum](https://github.com/user-attachments/assets/fca647c9-de86-4b7d-a0ed-d07e23e17b38)
 
-The rolling sum gives an idea of the change in sales every month and tells a similar story to the total sales.
-From january to december ever year is a fairly straight line meaning a fairly linear sales function.
-From january - december 2013 has the greatest slope meaning that the month to month change in sales was the greatest during that period.
+The rolling sum gives an idea of the change in sales every month/year
+It gives an idea of growth/decline
+From january to december between 2011 and 2012 is a fairly straight line meaning a fairly linear sales function.
+This means on average for these two years, roughly similar amounts were sold each month
+From january - december 2013 is the most non-linear and has the greatest average slope
+Meaning that the month to month change in sales was the greatest during that period.
 This tallies with 2013 having the largest sales numbers.
+In general, this shows month-to-month growth in 2013
 
 Moving Average:
+
 ![Moving_average](https://github.com/user-attachments/assets/2a680223-f780-406f-86f5-58ec19e2d697)
 
 Moving averages are good for identifying underlying trends when there are fluctuations.
 In this instance, it shows that the 3-month average in 2011 and 2012 were relatively flat
-This means that as the year went on the genral monthly trend averages to a  
+This means that as the year went on any spikes were cancelled out by declines and it averages to a relatively flat pattern
+Also, the average sales numbers of 2012 were less than 2011 numbers which tallies with the total
+For 2013, the moving average had a clear upward momentum which showed a steady, periodic sales gain
+Except between july and august which had a slight decline compared to other periods in the year.
+
 
 
 7. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
