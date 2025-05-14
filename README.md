@@ -40,8 +40,10 @@ In total, there are ten questions which were desired to be answered:
   - New: Less than 12 months of spending
 
 
+
 - As with all data analytics projects, countless aspects of the data could be explored.
 - However the questions above were chosen and this is how the analysis was conducted
+
 
 1. What are Yearly sales totals?
 
