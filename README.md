@@ -15,12 +15,9 @@
 
 ### Analysis
 
-In total, there are ten questions which were desired to be answered:
+In total, there are 7 questions which were desired to be answered:
 #### Trends over time
-1. What are Yearly sales totals?
-2. What is the number of yearly total customers
-3. What are yearly order totals:
-4. What are yearly quantity totals:
+1. What are Yearly sales,customers,quantity and order totals?
 
 #### Cumulative analysis
 1. Find the 3-month moving average of sales
@@ -44,8 +41,10 @@ In total, there are ten questions which were desired to be answered:
 As with all data analytics projects, countless aspects of the data could be explored. 
 However the questions above were chosen and this is how the analysis was conducted
 <br>
-1. What are Yearly sales totals?
+<br>
+1. What are Yearly totals?
 
+#### Sales
 Here are the total sales numbers. 2013 had the highest sales
 
 ![Yearly sales](https://github.com/user-attachments/assets/9f8ce615-fea0-4a29-94a3-00ae58046b13)
@@ -60,7 +59,7 @@ Here are the total sales numbers. 2013 had the highest sales
 | 2010 | 43,419 |
 
 
-2. What is the number of yearly total customers
+#### Customers
 
 This displayed an interesting trend that even though total sales in 2011 were greater than 2012, 2011 had less customers
 
@@ -72,7 +71,8 @@ This displayed an interesting trend that even though total sales in 2011 were gr
 | 2014 | 834 |
 | 2010 | 14 |
 
-3. What are yearly order totals:
+#### Orders
+
 This displayed a year on year increase and spiked in 2013
 
 | Year | Total Orders |
@@ -83,7 +83,8 @@ This displayed a year on year increase and spiked in 2013
 | 2014 | 871 |
 | 2010 | 14 |
 
-4. What are yearly quantity totals:
+#### Quantuty
+
 The results are as follows:
 
 | Year | Total Quantity |
