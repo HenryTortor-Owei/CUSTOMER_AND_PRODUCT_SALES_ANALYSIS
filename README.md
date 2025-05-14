@@ -1,6 +1,12 @@
 # CUSTOMER_AND_PRODUCT_SALES_ANALYSIS
-This is an analysis of customer and product sales data to uncover key insights. In total, 
-there are ten questions which were desired to be answered:
+
+- This is an analysis of customer and product sales data to uncover key insights. 
+- The dataset consisted of three tables, two dimension tables (dim_products and dim_customers) as well as a sales fact table(fact_sales)
+- The fact table consisted of 60,398 rows of sales data
+- The customer and products tables had 18484 and 295 products respectively. 
+- This means that over the roughly 4 year period over which the data was collectd, the compant had 18484 unique customers and sold 295 products.
+
+In total, there are ten questions which were desired to be answered:
 1. What are Yearly sales totals?
 2. What is the number of yearly total customers
 3. What are yearly order totals:
