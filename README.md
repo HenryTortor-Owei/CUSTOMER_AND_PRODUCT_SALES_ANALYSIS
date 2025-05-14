@@ -10,6 +10,8 @@
 - A database, called gold, was created along with three tables to hold the data. The columns were exactly the same as those in the csv flat files
 - Appropriate data types were chosen for each column. Dates for date columns, vachars for text columns and an int for the numerics.
 
+#### A caveat for the data is that data for 2010 and 2014 were incomplete
+
 
 ### Analysis
 
@@ -21,22 +23,25 @@ In total, there are ten questions which were desired to be answered:
 4. What are yearly quantity totals:
 
 #### Cumulative analysis
-7. Find the 3-month moving average of sales
-8. Find the monthly running total of sales
-  
-    
-9. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
-10. Analyse product categories to find which contributes the most to product sales
-11. What is the contribution of each products to sales, group them into segments.
-12. Group customers into three segments based on their spending behaviour:
+1. Find the 3-month moving average of sales
+2. Find the monthly running total of sales
+
+#### Performance Analysis
+1. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
+
+#### Proportional Analysis
+1. Analyse product categories to find which contributes the most to product sales
+
+#### Data Segmenntation
+1. What is the contribution of each products to sales, group them into segments.
+2. Group customers into three segments based on their spending behaviour:
   - VIP: At least 12 months of spending and total spend of more than 5000 Euros
   - Regular: At least 12 months of spending but total spend is 5000 Euros or less
   - New: Less than 12 months of spending
 
 
-### A caveat for the data is that data for 2010 and 2014 were incomplete
-### As with all data analytics projects, countless aspects could be explored.
-### However the questions above were chosen and this is how the analysis was conducted
+- As with all data analytics projects, countless aspects of the data could be explored.
+- However the questions above were chosen and this is how the analysis was conducted
 
 1. What are Yearly sales totals?
 
