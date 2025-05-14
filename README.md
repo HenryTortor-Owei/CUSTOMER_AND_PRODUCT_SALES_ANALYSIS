@@ -17,21 +17,21 @@
 
 In total, there are 7 questions which were desired to be answered:
 #### Trends over time
-1. What are Yearly sales,customers,quantity and order totals?
+1. What are Yearly sales, customers, quantity and order totals?
 
 #### Cumulative analysis
 1. Find the 3-month moving average of sales
 2. Find the monthly running total of sales
 
 #### Performance Analysis
-1. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
+3. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
 
 #### Proportional Analysis
-1. Analyse product categories to find which contributes the most to product sales
+4. Analyse product categories to find which contributes the most to product sales
 
 #### Data Segmenntation
-1. What is the contribution of each products to sales, group them into segments.
-2. Group customers into three segments based on their spending behaviour:
+5. What is the contribution of each products to sales, group them into segments.
+6. Group customers into three segments based on their spending behaviour:
   - VIP: At least 12 months of spending and total spend of more than 5000 Euros
   - Regular: At least 12 months of spending but total spend is 5000 Euros or less
   - New: Less than 12 months of spending
@@ -97,9 +97,9 @@ The results are as follows:
 
 The trend here is similar to other high level metrics i.e spiking in 2013
 
-5 & 6. Find the rolling sum and 3-month moving average of sales
+2 & 3. Find the rolling sum and 3-month moving average of sales
 
-Rolling sum:
+#### Rolling sum:
 
 ![rolling_sum](https://github.com/user-attachments/assets/fca647c9-de86-4b7d-a0ed-d07e23e17b38)
 
@@ -112,7 +112,7 @@ Rolling sum:
 - This tallies with 2013 having the largest sales numbers.
 - In general, this shows month-to-month growth in 2013
 
-Moving Average:
+#### Moving Average:
 
 ![Moving_average](https://github.com/user-attachments/assets/2a680223-f780-406f-86f5-58ec19e2d697)
 
@@ -125,7 +125,7 @@ Moving Average:
 
 
 
-7. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
+3. Analyze the performance of products by comparing each product’s sales to both its average sales performance over the whole period and the previous year's performance
 There are more products than can be shown here but here are the first 2 product results:
 
 | Year | Product Name | Yearly Sales | Average Sales | Previous Comparison | PY Status | Average Comparison | Average Status |
@@ -138,7 +138,7 @@ There are more products than can be shown here but here are the first 2 product 
 | 2014 | AWC Logo Cap | 747 | 6,570.0000 | -18,144 | worse | -5,823.0000 | Lower_than_average |
 
 
-8. Analyse product categories to find which contributes the most to product sales
+4. Analyse product categories to find which contributes the most to product sales
    There are three product categories here: Accesories, bikes and clothing. Here is a donut chart of the contribution to sales:
 
    ![Product categories](https://github.com/user-attachments/assets/37860891-18dd-48c2-9369-cc2e4ace86d3)
@@ -147,13 +147,13 @@ There are more products than can be shown here but here are the first 2 product 
    - This is followed by accessories with 2.39% or 700,262 sales
    - Lastly is clothing with 1.16% or 339,716 sales
 
-9. What is the contribution of each products to sales, group them into segments.
+5. What is the contribution of each products to sales, group them into segments.
    Here are the results
     ![Sales categories](https://github.com/user-attachments/assets/8aaef8b6-6583-4820-85e1-f5a3be6de88a)
 
 
 
-10. Group customers into three segments based on their spending behaviour:
+6. Group customers into three segments based on their spending behaviour:
   - VIP: At least 12 months of spending and total spend of more than 5000 Euros
   - Regular: At least 12 months of spending but total spend is 5000 Euros or less
   - New: Less than 12 months of spending
